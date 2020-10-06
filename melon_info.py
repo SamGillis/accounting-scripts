@@ -8,7 +8,7 @@ def print_all_melons(melons):
     """Print every melon and corresponding attributes"""
 
     for melon_name, attributes in melons.items():
-        print(melon_name.upper())
+        print(melon_name)
 
         for attribute, value in attributes.items():
             print(f'{attribute}: {value}')
